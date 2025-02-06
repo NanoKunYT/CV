@@ -23,7 +23,7 @@ body {
 }
 
 body {
-    background: #2c987d;
+    background: #4d3d3d;
     background-image: url(../media/triangles-top.svg), url(../media/triangles-bottom.svg);
     background-position: left top, right bottom;
     background-repeat: no-repeat;
@@ -41,9 +41,9 @@ body {
 
 .profile {
     width: 280px;
-    background-color: rgba(12, 108, 252, 0.485);
+    background-color: rgba(255, 255, 255, 0.485);
     border-radius: 20px;
-    box-shadow: 0 2.5rem 3.125rem rgba(103, 118, 128, 0.1) !important;
+    box-shadow: 0 2.5rem 3.125rem rgba(255, 255, 255, 0.771) !important;
     text-align: center;
     padding-top: 1.75rem;
     position: fixed;
@@ -52,7 +52,7 @@ body {
 
 
 .my-photo {
-    border-radius: 8px;
+    border-radius: 15px;
     max-height: 11.25rem;
     max-width: 11.25rem;
     height: 11.25rem;
@@ -69,7 +69,7 @@ body {
 }
 
 .badge-profile {
-    background-color: #f0f0f671;
+    background-color: #ffffff71;
     color: #44566C;
     font-size: 0.9375rem;
     font-weight: 400;
@@ -91,7 +91,7 @@ body {
 }
 
 .info {
-    background-color: #ffffffa9;
+    background-color: #f0f0f0a9;
     padding-top: 2rem;
     padding-bottom: 2rem;
     position: relative;
@@ -122,7 +122,7 @@ body {
 }
 
 .contacts-block-item a {
-    color: #44566C;
+    color: #000000;
     text-decoration: none;
     display: flex;
     width: 100%;
@@ -132,7 +132,7 @@ body {
 
 
 .btn {
-    background-color: darkturquoise;
+    background-color: rgb(65, 106, 107);
     border-radius: 20px;
     border: 0;
     box-shadow: 0 0.5rem 1rem rgba(48, 76, 253, 0.15), 0 0.125rem 0.25rem rgba(48, 76, 253, 0.15);
@@ -172,7 +172,7 @@ body {
 
 
 .menu-circle {
-    background-color: darkturquoise;
+    background-color: rgb(71, 97, 97);
     border-radius: 50% 1.25rem 50% 50%;
     color: white;
     display: flex;
@@ -211,7 +211,7 @@ body {
     display: flex;
     width: 0%;
     justify-content: space-evenly;
-    background-color: darkturquoise;
+    background-color: rgb(63, 119, 120);
     height: 100%;
     align-items: center;
     border-radius: 1.5rem 0 0 1.5rem;
@@ -239,7 +239,7 @@ body {
 }
 
 h2.title {
-    color: darkturquoise;
+    color: rgb(48, 153, 64);
     font-size: 2rem;
     font-weight: 500;
     position: relative;
@@ -437,7 +437,7 @@ footer {
 .social a i:hover {
     transform: scale(1.3) rotate(10deg);
     /* Aumenta tamaño y rota */
-    color: #007BFF;
+    color: #ed0606;
     /* Cambia a azul al pasar el mouse */
 }
 
@@ -445,7 +445,7 @@ footer {
 .contacts-block-item i {
     font-size: 18px;
     /* Tamaño de los íconos */
-    color: #555;
+    color: #ffffff;
     /* Color inicial */
     transition: transform 0.3s ease, color 0.3s ease;
     /* Animación suave */
